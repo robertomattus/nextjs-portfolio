@@ -57,6 +57,38 @@ const Skills = () => {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
+                                    src={fireBaseImg}
+                                    width='64px' 
+                                    height='64px' 
+                                    alt='/'
+                                />
+                            </div>
+                            <div className='flex felx-col items-center justify-center'>
+                                <h3>Firebase</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image 
+                                    src={GitHubImg} 
+                                    width='64px' 
+                                    height='64px' 
+                                    alt='/'
+                                />
+                            </div>
+                            <div className='flex felx-col items-center justify-center'>
+                                <h3>GitHub</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image 
                                     src={pythonImg} 
                                     width='64px' 
                                     height='64px' 
@@ -137,22 +169,6 @@ const Skills = () => {
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
-                                    src={GitHubImg} 
-                                    width='64px' 
-                                    height='64px' 
-                                    alt='/'
-                                />
-                            </div>
-                            <div className='flex felx-col items-center justify-center'>
-                                <h3>GitHub</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='m-auto'>
-                                <Image 
                                     src={ReactImg}
                                     width='64px' 
                                     height='64px' 
@@ -193,22 +209,6 @@ const Skills = () => {
                             </div>
                             <div className='flex felx-col items-center justify-center'>
                                 <h3>Tailwind CSS</h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='m-auto'>
-                                <Image 
-                                    src={fireBaseImg}
-                                    width='64px' 
-                                    height='64px' 
-                                    alt='/'
-                                />
-                            </div>
-                            <div className='flex felx-col items-center justify-center'>
-                                <h3>Firebase</h3>
                             </div>
                         </div>
                     </div>
