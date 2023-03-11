@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import weatherImg from '../public/assets/projects/weather.png'
+import moviesImg from '../public/assets/projects/movies.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const weatherapp = () => {
+const movies = () => {
     return (
         <div className='w-full'>
             <div className='w-[100%] h-[50vh] relative'>
@@ -13,12 +13,12 @@ const weatherapp = () => {
                     className='absolute z-1'
                     layout='fill'
                     objectFit='cover'
-                    src={weatherImg}
+                    src={moviesImg}
                     alt='/'
                 />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                    <h2 className='py-2'>Weather App</h2>
-                    <h3>ReactJS / CSS</h3>
+                    <h2 className='py-2'>Movies API</h2>
+                    <h3>NodeJS / PostgreSQL</h3>
                 </div>
             </div>
     
@@ -27,18 +27,14 @@ const weatherapp = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        I built this application in React JS and is hosted on GitHub pages.
-                        This app features access to the location so you can determine the weather from 
-                        the place where the application is opened. Icons change depending on the weather
-                        and you can change the measure of the degrees, because the API comes in kelvin.
-                        This application is pulling data from a public weather API.
+                        I built this application in Node JS.
                     </p>
                     <a
-                        href='https://mattweatherapp.netlify.app/'
+                        href='https://github.com/robertomattus/movies-api'
                         target='_blank'
                         rel='noreferrer'
                     >
-                        <button className='px-8 py-2 mt-4'>Demo</button>
+                        <button className='px-8 py-2 mt-4'>Code</button>
                     </a>
                 </div>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -46,16 +42,25 @@ const weatherapp = () => {
                         <p className='text-center font-bold pb-2'>Technologies</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> ReactJS
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> CSS
+                                <RiRadioButtonFill className='pr-1' /> NodeJS
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> JavaScript
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> API
+                                <RiRadioButtonFill className='pr-1' /> ExpressJS
+                            </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> PostgreSQL
+                            </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> Sequelize
+                            </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> JWT
+                            </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> Passport
                             </p>
                         </div>
                     </div>
@@ -68,4 +73,4 @@ const weatherapp = () => {
     );
 };
 
-export default weatherapp;
+export default movies;

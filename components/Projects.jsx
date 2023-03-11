@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem';
 import netflixImg from '../public/assets/projects/netflix.png';
 import chatImg from '../public/assets/projects/chat.png';
 import pokeImg from '../public/assets/projects/poke.png'
-import weatherImg from '../public/assets/projects/weather.png'
+import moviesImg from '../public/assets/projects/movies.png'
 
 const Projects = () => {
     return (
@@ -12,6 +12,12 @@ const Projects = () => {
                 <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
                 <h2 className='py-4'>What I&#39;ve Built</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
+                     <ProjectItem 
+                        title='Movies API' 
+                        backgroundImg={moviesImg}
+                        projectURL='/movies'
+                        tech='NodeJS'
+                    />
                     <ProjectItem 
                         title='Chat API' 
                         backgroundImg={chatImg}
@@ -28,12 +34,6 @@ const Projects = () => {
                         title='Poke API' 
                         backgroundImg={pokeImg}
                         projectURL='/pokeapi'
-                        tech='ReactJS'
-                    />
-                    <ProjectItem 
-                        title='Weather App' 
-                        backgroundImg={weatherImg}
-                        projectURL='/weatherapp'
                         tech='ReactJS'
                     />
                 </div>

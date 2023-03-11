@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import netflixImg from '../public/assets/projects/netflix.png';
+import netflixImg from '../public/assets/projects/netflixbg.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -42,6 +42,13 @@ const netflix = () => {
                     >
                         <button className='px-8 py-2 mt-4'>Demo</button>
                     </a>
+                    <a
+                        href='https://github.com/robertomattus/netflix-clone'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <button className='px-8 py-2 mt-4 ml-3'>Code</button>
+                    </a>
                 </div>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
                     <div className='p-2'>
@@ -58,9 +65,6 @@ const netflix = () => {
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Firebase
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> API
                             </p>
                         </div>
                     </div>

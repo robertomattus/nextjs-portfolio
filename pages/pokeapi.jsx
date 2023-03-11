@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import pokeImg from '../public/assets/projects/poke.png'
+import pokeImg from '../public/assets/projects/pokebg.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -27,7 +27,7 @@ const pokeapi = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        I built this application in React JS and is hosted on GitHub pages.
+                        I built this application in React JS and is hosted on Netlify pages.
                         This app features a protected route and react redux toolkit.
                         It has pagination, search and type filters.
                         This application is pulling data from a public fan made API.
@@ -38,6 +38,13 @@ const pokeapi = () => {
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4'>Demo</button>
+                    </a>
+                    <a
+                        href='https://github.com/robertomattus/pokeapi'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <button className='px-8 py-2 mt-4 ml-3'>Code</button>
                     </a>
                 </div>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -52,9 +59,6 @@ const pokeapi = () => {
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> JavaScript
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> API
                             </p>
                         </div>
                     </div>
