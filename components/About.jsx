@@ -11,10 +11,12 @@ const About = () => {
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                     <p className='py-4'>Who I Am</p>
                     <p className='py-2 text-gray-600 max-w-[90%]'>
-                        I&#39;m a Software Engineer and also a member of Academlo Computer Science Academy. <br />
+                        I&#39;m a software engineer student and also a developer member of Academlo computer science academy. <br />
                         I have experience using some languages ​and frameworks as an individual developer.<br /> (Frontend development). <br />
                         <br />
-                        I&#39;m currently perfecting my knowledge in NodeJS, postgreSQL, ExpressJS, Python. <br />
+                        I also have experience creating APIs with NodeJS, postgreSQL and certain dependencies... Those projects 
+                        include security. I can also create desktop apps with Java. 
+                        <br />
                         (Backend development). <br />
                         <br />
                         My core strengths are the passion for creation, i&#39;m motivated, i know how to work alone and i know how to work in a team as well. I&#39;m empathic and quite disciplined.

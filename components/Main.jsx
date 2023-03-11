@@ -21,8 +21,8 @@ const Main = () => {
             </h1>
             <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                 I&#39;m a software developer, specializing in building exceptional
-                digital experiences. Currently, i&#39;m focused on building responsive 
-                front-end web applications and APIs with NodeJS (back-end) while learning 
+                digital experiences. Currently, i&#39;m focused on building APIs with NodeJS (back-end) and responsive 
+                front-end web applications while learning 
                 cybersecurity technologies.
             </p>
 
