@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import moviesImg from '../public/assets/projects/movies.png'
+import moviesImg from '../public/assets/projects/moviesbg.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -30,11 +30,18 @@ const movies = () => {
                         I built this application in Node JS.
                     </p>
                     <a
-                        href='https://github.com/robertomattus/movies-api'
+                        href='https://github.com/robertomattus/movies-streaming-api'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4'>Code</button>
+                    </a>
+                    <a
+                        href='https://mattus-movies.onrender.com/'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        <button className='px-8 py-2 mt-4 ml-3'>API</button>
                     </a>
                 </div>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
