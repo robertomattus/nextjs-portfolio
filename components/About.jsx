@@ -11,8 +11,8 @@ const About = () => {
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                     <p className='py-4'>Who I Am</p>
                     <p className='py-2 text-gray-600 max-w-[90%]'>
-                        I&#39;m a Full-Stack software developer. Although I&#39;m more focused on bakcend development. <br />
-                        I have the necessary skills to face the biggest challenges and the determination to solve each one that comes in my way. <br />
+                        I&#39;m a Full-Stack software developer. Although I&#39;m more focused on backend development. <br />
+                        I have the necessary skills to face big challenges as well as the determination to solve each problem that comes my way. <br />
                         <br />
                         I have experience using some languages ​and frameworks as an individual developer.<br /> (Frontend development). <br />
                         <br />

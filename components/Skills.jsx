@@ -12,6 +12,8 @@ import NodeImg from '../public/assets/skills/node.png';
 import PostgresqlImg from '../public/assets/skills/postgres.png';
 import pythonImg from '../public/assets/skills/python.png';
 import javaImg from '../public/assets/skills/java.png';
+import TSImg from '../public/assets/skills/ts.png'
+import Swagger from '../public/assets/skills/swagger.png'
 
 const Skills = () => {
     return (
@@ -21,7 +23,7 @@ const Skills = () => {
                 <h2 className='py-4'>What I Can Do</h2>
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image 
@@ -33,6 +35,22 @@ const Skills = () => {
                             </div>
                             <div className='flex felx-col items-center justify-center'>
                                 <h3>NodeJS</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image 
+                                    src={TSImg} 
+                                    width='64px' 
+                                    height='64px' 
+                                    alt='/'
+                                />
+                            </div>
+                            <div className='flex felx-col items-center justify-center'>
+                                <h3>TypeScript</h3>
                             </div>
                         </div>
                     </div>
@@ -65,6 +83,22 @@ const Skills = () => {
                             </div>
                             <div className='flex felx-col items-center justify-center'>
                                 <h3>Firebase</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image 
+                                    src={Swagger} 
+                                    width='64px' 
+                                    height='64px' 
+                                    alt='/'
+                                />
+                            </div>
+                            <div className='flex felx-col items-center justify-center'>
+                                <h3>Swagger</h3>
                             </div>
                         </div>
                     </div>
