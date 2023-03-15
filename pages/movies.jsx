@@ -27,7 +27,13 @@ const movies = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        I built this application in Node JS.
+                        I built this application in Node JS. I started, cloning my skeleton repo 
+                        (you can watch it on my github or in my projects section), wich contains 
+                        the connection to my database, my server up and the models that create the user tables.
+                        It also handles password encryption, user authorization, and provides jwt to access protected paths.
+                        It has error handling, a connection with firebase to storage movies, series, trillers, etc. 
+                        And it contains documentation with swagger. 
+                        Database and web services were deployed in render. Also this API was deployed.
                     </p>
                     <a
                         href='https://github.com/robertomattus/movies-streaming-api'
@@ -52,13 +58,16 @@ const movies = () => {
                                 <RiRadioButtonFill className='pr-1' /> NodeJS
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> Firebase
+                            </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> PostgreSQL
+                            </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> JavaScript
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> ExpressJS
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> PostgreSQL
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Sequelize
@@ -68,6 +77,9 @@ const movies = () => {
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Passport
+                            </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> Swagger
                             </p>
                         </div>
                     </div>

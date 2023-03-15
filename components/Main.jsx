@@ -8,11 +8,11 @@ const Main = () => {
     return (
         <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-            <div>
+            <div className='mt-10'>
 
-            {/* <p className='uppercase text-sm tracking-widest text-gray-600'>
-                LET&#39;S BUILD SOMETHING TOGETHER
-            </p> */}
+            <p className='uppercase text-sm tracking-widest text-gray-500'>
+                “To iterate is human, to recurse divine.”
+            </p>
             <h1 className='py-4 text-gray-700'>
                 Hi, i&#39;m <span className='text-[#5651e5]'>Roberto</span>
             </h1>

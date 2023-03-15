@@ -129,7 +129,7 @@ return (
             </div>
             <div className='border-b border-gray-300 my-2'>
                 <p className='w-[85%] md:w-[90%] py-2'>
-                    Let&#39;s build something legendary together
+                    “To iterate is human, to recurse divine.”
                 </p>
             </div>
         </div>
