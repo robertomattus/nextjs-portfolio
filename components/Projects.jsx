@@ -25,6 +25,12 @@ const Projects = () => {
                         tech='NodeJS'
                     />
                     <ProjectItem 
+                        title='Skeleton' 
+                        backgroundImg={chatImg}
+                        projectURL='/skeleton'
+                        tech='NodeJS'
+                    />
+                    <ProjectItem 
                         title='Netflix Clone' 
                         backgroundImg={netflixImg}
                         projectURL='/netflix'

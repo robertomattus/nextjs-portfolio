@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import moviesImg from '../public/assets/projects/moviesbg.png'
+import skeletonImg from '../public/assets/projects/skeleton.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const movies = () => {
+const skeleton = () => {
     return (
         <div className='w-full'>
             <div className='w-[100%] h-[50vh] relative'>
@@ -13,12 +13,12 @@ const movies = () => {
                     className='absolute z-1'
                     layout='fill'
                     objectFit='cover'
-                    src={moviesImg}
+                    src={skeletonImg}
                     alt='/'
                 />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                    <h2 className='py-2'>Movies API</h2>
-                    <h3>NodeJS / Firebase</h3>
+                    <h2 className='py-2'>Node Skeleton</h2>
+                    <h3>NodeJS / Express / PostgreSQL</h3>
                 </div>
             </div>
     
@@ -27,27 +27,18 @@ const movies = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        I built this application in Node JS. I started, cloning my skeleton repo 
-                        (you can watch it on my github or in my projects section), wich contains 
-                        the connection to my database, my server up and the models that create the user tables.
-                        It also handles password encryption, user authorization, and provides jwt to access protected paths.
-                        It has error handling, a connection with firebase to storage movies, series, trillers, etc. 
-                        And it contains documentation with swagger. 
-                        Database and web services were deployed in render. Also this API was deployed.
+                        I built this application in Node JS.
+                        This project contains the conection with a real database, 
+                        the main server configurations to get started, and also has 
+                        implemented the 'users' model to create users table on databases.
+                        Encrypted passwords, user auth and jwt handling.
                     </p>
                     <a
-                        href='https://github.com/robertomattus/movies-streaming-api'
+                        href='https://github.com/robertomattus/skeleton-node'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <button className='px-8 py-2 mt-4'>Code</button>
-                    </a>
-                    <a
-                        href='https://mattus-movies.onrender.com/'
-                        target='_blank'
-                        rel='noreferrer'
-                    >
-                        <button className='px-8 py-2 mt-4 ml-3'>API</button>
                     </a>
                 </div>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -56,9 +47,6 @@ const movies = () => {
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> NodeJS
-                            </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Firebase
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> PostgreSQL
@@ -78,9 +66,6 @@ const movies = () => {
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Passport
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Swagger
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -92,4 +77,4 @@ const movies = () => {
     );
 };
 
-export default movies;
+export default skeleton;
