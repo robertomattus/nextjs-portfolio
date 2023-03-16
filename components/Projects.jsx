@@ -4,6 +4,7 @@ import netflixImg from '../public/assets/projects/netflix.png';
 import chatImg from '../public/assets/projects/chat.png';
 import pokeImg from '../public/assets/projects/poke.png'
 import moviesImg from '../public/assets/projects/movies.png'
+import skeletonImg from '../public/assets/projects/skeleton.png'
 
 const Projects = () => {
     return (
@@ -26,7 +27,7 @@ const Projects = () => {
                     />
                     <ProjectItem 
                         title='Skeleton' 
-                        backgroundImg={chatImg}
+                        backgroundImg={skeletonImg}
                         projectURL='/skeleton'
                         tech='NodeJS'
                     />
